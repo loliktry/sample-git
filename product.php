@@ -1,4 +1,6 @@
 <?php
+//this is add commant for sample-git
+//this will be 
 
 class kelas_Product
 {
@@ -7,9 +9,10 @@ class kelas_Product
 	var $_type = 'Book';
 	//public $_type = 'Book';
 	// methods defined here
+    var $something = '';
 }
 
-//akses class membentuk object
+//akses class membentuk 
 $product = new kelas_Product();
 $product2 = new kelas_Product();
 
